@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "2527303f-0852-4a2b-95c4-0cabeaeca68c": {
+        "id": "2527303f-0852-4a2b-95c4-0cabeaeca68c",
+        "parent": null,
+        "name": "layer1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "d365421c-9be2-446c-b9f2-a72504b0ad8a"
+        ],
+        "isRemovable": false,
+        "filePath": "layer1"
+      },
+      "d365421c-9be2-446c-b9f2-a72504b0ad8a": {
+        "id": "d365421c-9be2-446c-b9f2-a72504b0ad8a",
+        "parent": "2527303f-0852-4a2b-95c4-0cabeaeca68c",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "layer1/lambda.js",
+        "code": "var hello = \"Hello\"\n\nexports.hello = hello",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "2527303f-0852-4a2b-95c4-0cabeaeca68c",
+    "openFiles": [
+      "d365421c-9be2-446c-b9f2-a72504b0ad8a"
+    ],
+    "currentFileId": "d365421c-9be2-446c-b9f2-a72504b0ad8a",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "layer1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1570520933725
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "layer1",
+      "url": "https://github.com/ghariosk/layer1"
+    }
+  }
+}
